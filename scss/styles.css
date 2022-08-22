@@ -1,0 +1,224 @@
+* {
+  cursor: default;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(19, 19, 19);
+}
+
+.main-label {
+  color: rgb(197, 197, 197);
+  text-align: center;
+  margin: auto;
+  margin-top: 10%;
+  -webkit-animation: title 2s;
+          animation: title 2s;
+}
+
+.container {
+  margin-bottom: 0px;
+}
+
+.login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login__lables {
+  -webkit-animation: login__lables 4s;
+          animation: login__lables 4s;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.login__lables lable {
+  -webkit-animation: login__lable 4s;
+          animation: login__lable 4s;
+  color: rgb(197, 197, 197);
+}
+.login__lables lable:not(:last-child) {
+  margin-right: 150px;
+}
+
+input {
+  color: rgb(197, 197, 197);
+  background-color: transparent;
+  border: 1px rgb(77, 77, 77) solid;
+  outline: none;
+  -webkit-animation: inputs 4s;
+          animation: inputs 4s;
+  cursor: text;
+  height: 20px;
+}
+input:not(:last-child) {
+  margin-right: 10px;
+}
+
+.login__btn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 7px;
+  background-color: #0000e6;
+  color: rgb(197, 197, 197);
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-animation: button 4s;
+          animation: button 4s;
+}
+.login__btn:hover {
+  background-color: #000094;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+@-webkit-keyframes title {
+  0% {
+    margin-top: 8.5%;
+    color: transparent;
+  }
+  100% {
+    margin-top: 10%;
+    color: rgb(197, 197, 197);
+  }
+}
+
+@keyframes title {
+  0% {
+    margin-top: 8.5%;
+    color: transparent;
+  }
+  100% {
+    margin-top: 10%;
+    color: rgb(197, 197, 197);
+  }
+}
+@-webkit-keyframes login__lable {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: rgb(197, 197, 197);
+  }
+}
+@keyframes login__lable {
+  0% {
+    color: transparent;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: rgb(197, 197, 197);
+  }
+}
+@-webkit-keyframes login__lables {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+@keyframes login__lables {
+  0% {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 0px;
+  }
+  100% {
+    margin-top: 20px;
+  }
+}
+@-webkit-keyframes inputs {
+  0% {
+    border: none;
+    cursor: default;
+  }
+  50% {
+    border: none;
+    cursor: default;
+  }
+  100% {
+    cursor: default;
+  }
+}
+@keyframes inputs {
+  0% {
+    border: none;
+    cursor: default;
+  }
+  50% {
+    border: none;
+    cursor: default;
+  }
+  100% {
+    cursor: default;
+  }
+}
+@-webkit-keyframes button {
+  0% {
+    background-color: transparent;
+    color: transparent;
+    cursor: default;
+  }
+  50% {
+    background-color: transparent;
+    color: transparent;
+    cursor: default;
+  }
+  100% {
+    background-color: #0000e6;
+    color: rgb(197, 197, 197);
+    cursor: default;
+  }
+}
+@keyframes button {
+  0% {
+    background-color: transparent;
+    color: transparent;
+    cursor: default;
+  }
+  50% {
+    background-color: transparent;
+    color: transparent;
+    cursor: default;
+  }
+  100% {
+    background-color: #0000e6;
+    color: rgb(197, 197, 197);
+    cursor: default;
+  }
+}
+@media (max-width: 400px) {
+  input {
+    width: 140px;
+  }
+  .login__lables lable:not(:last-child) {
+    margin-right: 120px;
+  }
+}
+@media (max-width: 325px) {
+  input {
+    width: 130px;
+  }
+  .login__lables lable:not(:last-child) {
+    margin-right: 110px;
+  }
+}/*# sourceMappingURL=styles.css.map */
